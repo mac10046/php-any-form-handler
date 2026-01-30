@@ -1,0 +1,17 @@
+{
+    "name": "custom/php-any-form-handler",
+    "description": "Universal PHP form handler with multi-tenant support",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

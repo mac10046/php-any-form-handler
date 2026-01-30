@@ -1,0 +1,8 @@
+/vendor/
+/configs/*.json
+!/configs/example.json
+.env
+*.log
+.DS_Store
+Thumbs.db
+.claude

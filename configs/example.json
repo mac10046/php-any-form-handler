@@ -1,0 +1,27 @@
+{
+    "tenant_id": "example-tenant",
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "name": "form_example",
+        "username": "db_user",
+        "password": "db_password"
+    },
+    "email": {
+        "enabled": true,
+        "to": ["admin@example.com"],
+        "cc": [],
+        "bcc": [],
+        "from_email": "forms@yourserver.com",
+        "from_name": "Form Handler",
+        "subject_prefix": "[Form Submission]"
+    },
+    "smtp": {
+        "host": "smtp.example.com",
+        "port": 587,
+        "encryption": "tls",
+        "username": "smtp_user",
+        "password": "smtp_password"
+    },
+    "allowed_origins": ["*"]
+}
